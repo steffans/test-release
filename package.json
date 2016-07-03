@@ -1,0 +1,10 @@
+{
+  "name": "test",
+  "version": "0.0.2",
+  "scripts": {
+    "release": "generate-release"
+  },
+  "devDependencies": {
+    "generate-release": "^0.7.6"
+  }
+}
