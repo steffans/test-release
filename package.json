@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "scripts": {
     "release": "generate-release"
   },
@@ -10,7 +10,7 @@
         "README.md",
         "bower.json"
       ],
-      "release-message": "v{version}"
+      "release_message": "v{version}"
     }
   },
   "devDependencies": {
