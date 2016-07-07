@@ -9,7 +9,8 @@
       "files_to_version": [
         "README.md",
         "bower.json"
-      ]
+      ],
+      "release-message": "v{version}"
     }
   },
   "devDependencies": {
