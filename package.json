@@ -10,7 +10,7 @@
         "README.md",
         "bower.json"
       ],
-      "release-message": "v{version}"
+      "release_message": "v{version}"
     }
   },
   "devDependencies": {
