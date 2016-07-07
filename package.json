@@ -1,10 +1,18 @@
 {
   "name": "test",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "scripts": {
     "release": "generate-release"
   },
+  "config": {
+    "generateRelease": {
+      "files_to_version": [
+        "README.md",
+        "bower.json"
+      ]
+    }
+  },
   "devDependencies": {
-    "generate-release": "^0.7.6"
+    "generate-release": "^0.10.0"
   }
 }
