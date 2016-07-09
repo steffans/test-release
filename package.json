@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "scripts": {
     "release": "generate-release"
   },
@@ -8,7 +8,7 @@
     "generateRelease": {
       "release_message": "v{version}",
       "files_to_commit": [
-          "./bower.json"
+        "./bower.json"
       ],
       "pre_commit_commands": [
         "node ./release.js"
