@@ -1,19 +1,19 @@
 {
   "name": "test",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "scripts": {
     "release": "generate-release"
   },
   "config": {
     "generateRelease": {
-      "files_to_version": [
-        "README.md",
-        "bower.json"
-      ],
-      "release_message": "v{version}"
+      "release_message": "v{version}",
+      "pre_commit_commands": [
+        "node ./release.js"
+      ]
     }
   },
   "devDependencies": {
-    "generate-release": "^0.10.0"
+    "generate-release": "^0.10.0",
+    "replace-in-file": "^1.1.1"
   }
 }
