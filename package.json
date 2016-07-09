@@ -7,6 +7,9 @@
   "config": {
     "generateRelease": {
       "release_message": "v{version}",
+      "files_to_commit": [
+          "./bower.json"
+      ],
       "pre_commit_commands": [
         "node ./release.js"
       ]
