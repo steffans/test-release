@@ -1,17 +1,18 @@
 {
   "name": "test",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "scripts": {
     "release": "generate-release"
   },
   "config": {
     "generateRelease": {
       "release_message": "v{version}",
-      "files_to_commit": [
-        "./bower.json"
-      ],
       "pre_commit_commands": [
         "node ./release.js"
+      ],
+      "files_to_version": [
+        "README.md",
+        "bower.json"
       ]
     }
   },
