@@ -1,5 +1,5 @@
 # test-release
 
-Version 0.2.7
+Version 0.3.0
 
-<script src="https://cdn.jsdelivr.net/test-release/0.2.7/test.min.js"></script>
+<script src="https://cdn.jsdelivr.net/test-release/0.3.0/test.min.js"></script>
