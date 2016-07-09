@@ -7,7 +7,7 @@
   "config": {
     "generateRelease": {
       "release_message": "v{version}",
-      "pre_commit_commands": "node ./release.js"
+      "pre_commit_commands": ["node ./release.js"]
     }
   },
   "devDependencies": {
